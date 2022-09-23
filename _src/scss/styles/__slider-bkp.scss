@@ -1,0 +1,108 @@
+#owl-slider .mem-carousel-box {
+	background-color: transparent;
+	height: 480px;
+	display: flex;
+	flex-direction: column-reverse;
+
+	@include respond-to(md) {
+		height: 450px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+
+	@include e('info'){
+		width: 100%;
+		padding: 15px;
+
+		@include respond-to(md){
+			width: 50%;
+		}
+	}
+
+	@include e('figure'){
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+		@include respond-to(md){
+			width: 30%;
+		}
+	}
+
+	@include e('title'){
+		color: #112d4f;
+		font-size: 25px;
+    	line-height: 25px;
+
+		@include respond-to(md){
+			font-size: 38px;
+    		line-height: 44px;
+		}
+	}
+
+	@include e('text'){
+		color: #112d4f;
+	}
+}
+  
+#owl-slider .owl-controls .owl-nav {
+	position: relative;
+}
+  
+#owl-slider .owl-controls .owl-nav .owl-prev {
+	background-image: url('../images/owl-prev.png');
+	font-size: 0;
+	background-size: 16px;
+	padding: 8px 18px;
+	border-radius: 26px;
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.56);
+	display: inline-block;
+	background-position: center;
+	background-size: 10px;
+	left: 70px;
+	top: -250px;
+	position: absolute;
+	
+}
+  
+#owl-slider .owl-controls .owl-nav .owl-next {
+	background-image: url('../images/owl-next.png');
+	font-size: 0;
+	background-size: 16px;
+	padding: 8px 18px;
+	border-radius: 26px;
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.56);
+	display: inline-block;
+	background-position: center;
+	background-size: 10px;
+	right: 70px;
+	top: -250px;
+	position: absolute;
+}
+  
+#owl-slider .owl-dots {
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+  
+#owl-slider .owl-dots .owl-dot {
+	background: #ccc;
+	width: 10px;
+	height: 10px;
+	display: block;
+	float: left;
+	margin:2px;
+	border-radius: 10px;
+}
+  
+#owl-slider .owl-dots .active{
+	background: #112d4f;    
+}

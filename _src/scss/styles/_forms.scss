@@ -1,0 +1,223 @@
+/* NEWSLETTER*/
+.form-newsletter {
+	display: flex;
+}
+  
+.form-newsletter--sidebar {
+	flex-direction: column;
+}
+  
+.form-newsletter--sidebar .wpcf7-submit {
+	margin-top: 10px;
+	width: 100%;
+}
+
+
+  
+
+#wpcf7-f26-p43-o1 .form-horizontal {
+	flex-direction: column;
+}
+#wpcf7-f26-p43-o1 .form-horizontal .email {
+	margin-bottom: 10px;
+}  
+#wpcf7-f26-p43-o1 .form-horizontal .wpcf7-submit {
+	margin-left: 0;
+}  
+.form-horizontal {
+	flex-direction: row;
+}
+  
+.wpcf7-mail-sent-ok {
+	font-weight: 100;
+	font-size: 16px;
+	align-items: center;
+	border-radius: 0;
+	background-color: green;
+	color: white;
+	display: flex !important;
+	height: 40px;
+	justify-content: center;
+	margin: 15px 0px;
+}
+  
+.wpcf7-validation-errors {
+	background-color: red;
+}
+  
+.wpcf7-mail-sent-ng {
+	background-color: yellow;
+}
+.wpcf7-mail-sent-ng, .wpcf7-validation-errors {
+	font-weight: 100;
+	font-size: 16px;
+	bottom: 0;
+	color: white;
+	display: block !important;
+	left: 0;
+	margin: 0;
+	position: fixed;
+	padding: 26px;
+	text-align: center;
+	width: 100%;
+	z-index: 9999; 
+}
+  
+.wpcf7-response-output {
+	color: white;
+	margin-top: 15px;
+	font-weight: 100;
+	font-size: 16px;
+}
+  
+.wpcf7-form .wpcf7-not-valid {
+	box-shadow: 0px 0px 0px 1px #a90000;
+}
+  
+.wpcf7-not-valid-tip, .screen-reader-response {
+	display: none;
+}
+
+.ajax-loader {
+	margin-left: 15px;
+}
+  
+.searchandfilter ul li {
+	padding: 0;
+}
+
+.text-area-input {
+	resize: none;
+}
+
+.form-submit #submit {
+	background: #2ebaa8;
+	color: white;
+	border: 0px;
+	padding: 15px;
+}
+
+
+#wpcf7-f616-p428-o1 .form-header {
+	margin-bottom: 20px;    
+}
+  
+#wpcf7-f616-p428-o1 .form-header .form-header-title {
+	text-align: center;
+}
+  
+#wpcf7-f616-p428-o1 .form-header .form-header-desc {
+ 	text-align: center;
+	font-size: 16px;
+}
+#wpcf7-f616-p428-o1 .wpcf7-form-control-wrap {
+	width: 49%;
+	margin-bottom: 12px;
+}  
+#wpcf7-f616-p428-o1 .msg {
+	width:100%;
+}  
+#wpcf7-f616-p428-o1 .msg textarea {
+	resize: none;    
+	padding: 15px;
+	width:100%;
+	border: 1px solid #b5b5b5;
+}  
+#wpcf7-f616-p428-o1 {
+	background: #fff;
+	padding: 20px;
+}  
+#wpcf7-f616-p428-o1 .form-row {
+	display:flex;
+	justify-content: space-between;
+}
+#wpcf7-f616-p428-o1 .form-row input, #wpcf7-f616-p428-o1 .form-row select  {
+	padding: 15px;
+	border: 1px solid #b5b5b5;
+	width:100%;
+}
+  
+#wpcf7-f616-p428-o1 .wpcf7-submit {
+	background: #2ebaa8;
+	color: white;
+	border: 0px;
+	padding: 15px;
+	width: 100%;	
+} 
+.icon-horizontal-image-2.mrmenor {
+	filter: none;
+} 
+#wpcf7-f439-p426-o1 .wpcf7-response-output {
+	font-size: 14px;
+	color: #000;
+} 
+
+/* FORM POPUP MIMOS */
+// #formMimos {
+// 	position: relative;
+// 	width: 100%;
+// 	float: left;
+// }
+// #wpcf7-f406-o2 .form-header  {
+// 	display: flex;
+// 	flex-direction: column;
+// 	margin-bottom: 20px;
+// }
+// #wpcf7-f406-o2 .form-header-title  {
+// 	color: white;
+// 	font-size: 35px;
+// 	font-family: 'Open Sans', sans-serif;
+// 	line-height: 50px;
+// 	text-align: center;
+// 	margin: 0;
+// }  
+// #wpcf7-f406-o2 .form-header-desc  {
+// 	color: white;
+// 	font-size: 14px;
+// 	font-family: 'Open Sans', sans-serif;
+// 	text-align: center;
+// 	margin-top: 15px;
+// }  
+// #wpcf7-f406-o2 {
+// 	background: #112d4f;
+// 	padding: 40px;
+// 	width: 600px;
+// 	margin: 0 auto;
+// }  
+// #wpcf7-f406-o2 .form-row  {
+// 	display: flex;
+// 	justify-content: space-between;
+// }
+// #wpcf7-f406-o2 .form-row .wpcf7-form-control-wrap  {
+// 	width: 49.46%;
+// }
+  
+// #wpcf7-f406-o2 .form-row .wpcf7-form-control-wrap input, 
+// #wpcf7-f406-o2 .form-row .wpcf7-form-control-wrap select {
+// 	width: 100%;
+// 	border: 1px solid #c3c3c3;
+// 	padding: 15px;
+// 	color: #000;
+// }
+// #wpcf7-f406-o2 .form-row .wpcf7-form-control-wrap select {
+// 	padding: 14px !important;
+// }
+  
+// #wpcf7-f406-o2 .wpcf7-submit {
+// 	background: #2ebaa8;
+// 	border: 0;
+// 	padding: 15px;
+// 	width: 100%;
+// 	cursor: pointer;
+// 	margin-top: 15px;
+// 	color: white;
+// 	text-transform: uppercase;
+// 	transition: all 500ms ease;
+// }  
+// #wpcf7-f406-o2 .wpcf7-submit:hover {
+// 	background:#2a9a8b;
+// }  
+// #wpcf7-f406-o2 .telefone  {
+// 	width: 100% !important;
+// 	margin: 15px 0;
+// }

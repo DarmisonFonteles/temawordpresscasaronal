@@ -1,0 +1,838 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    //background-color: rgb(243, 243, 253);
+    background-color: #fff;
+    justify-content: center;
+}
+
+.crp-header{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+
+    &-posicao{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 8px;
+        margin: 8px;
+    }
+        
+}
+
+.direcao-posicionamento-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 18px 8px;
+    
+    a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+    }
+        &:hover{
+            color: #134a99;
+        }
+    }
+
+
+.btn-doar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #d2267a;
+    border-radius: 20px;
+    height: 35px;
+    margin: 18px 8px;
+    text-decoration: none;
+    color: #fff;
+    :hover{
+        background-color: green;
+    }
+}
+
+
+.direcao-posicionamento-header img{
+    height: 60px;
+}
+
+.imagem-shalon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.imagem-shalon img{
+    height: 90px;
+}
+
+.position-corpo-master{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.position-corpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    width: 100%;
+}
+
+.position-corpo img{
+    height: 400px;
+}
+.posicao-texto-rotativo{
+    width: 560px;   
+}
+
+.posicao-texto-rotativo-caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    width: 100%;
+}
+
+.title-texto-rotativo{
+    font-size: 30px;
+}
+
+
+
+
+
+/* area do carrossel */
+
+.segunda-sessao-posicionamento{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.segunda-sessao-posicionamento-text{
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    
+}
+
+.segunda-sessao-posicionamento-img{
+    position: absolute;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.segunda-sessao-edit-text-1{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.segunda-sessao-edit-text-2{
+    font-size: 18px;
+    color: #fff;
+}
+
+.position-seletec-2{
+    justify-content: center;
+    padding: 10px;
+}
+
+.posicionamento-texto-center{
+    align-items: center;
+    text-align: center;
+}
+
+.posicionamento-lateral-beta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+    margin: 8px;   
+}
+
+.posicionamento-caixa{
+    width: 100%;
+    height: 0 auto;
+    margin: 10px;
+    background-color: rgb(243, 243, 253);
+    align-items: center;
+    text-align: center;
+}
+
+.text-select-img{
+    height: 150px;
+    width: 150px!important;
+    margin: 0 auto;
+}
+
+.title-select-2{
+    font-size: 16px;
+    color: #000;
+    margin: 10px;
+}
+
+.text-select-2{
+    font-size: 14px;
+    color: #666;
+}
+
+.select-video-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 253);
+    padding: 8px;
+}
+.img-video-edit{
+    margin: 15px;
+    padding: 15px;
+}
+
+.select-video-edit-text{
+    margin: 20px;
+    font-size: 25px;
+    
+}
+
+.select-edite-color{
+    background-color: rgb(243, 243, 253);
+}
+
+.select-edite-tops{
+    margin-top: 50px;
+}
+
+.doar-aprenda{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.doar-aprenda-text1 h2{
+    font-size: 24px;
+}
+
+.doar-aprenda-text2{
+    font-size: 18px;   
+}
+
+.doar-benfeitor-um{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 243, 253);
+    
+}
+
+/* .doar-benfeitor-um-beta{
+    
+} */
+
+.doar-benfeitor-um-beta-um{
+    font-size: 28px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.doar-benfeitor-um-beta-dois{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doar-benfeitor-um-beta-tres{
+    display: flex;
+    width: 50%;
+    font-size: 16px;
+}
+
+.doar-benfeitor-um-beta-tres2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.doar-benfeitor-um-beta-botton1{
+    background-color: #2bac89;
+    padding: 18px 18px 18px 40px;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+.doar-benfeitor-um-beta-botton2{
+    background-color: #d2267a;
+    padding: 18px 18px 18px 40px;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+.class-doar-banco{
+    margin-top: 50px;
+    align-items: center;
+    background-color: rgb(243, 243, 253);
+    padding: 15px;
+}
+
+.doar-benfeitor-um-beta-banco{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.doar-benfeitor-um-beta-botton-extra{
+    background-color: #2bac89;
+    padding: 15px 33px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    margin: 10px;
+}
+
+.voluntario-benfeitor-um-beta{
+    display: flex;
+    width: 40%;
+    margin: 15px;
+    font-size: 16px;
+}
+
+.voluntario-benfeitor-um-beta2{
+    display: flex;
+    width: 50%;
+    margin: 15px;
+    font-size: 16px;
+}
+
+.voluntario-benfeitor-um-beta-form{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.input-um{
+    width: 100%;
+    font-size: 15px;
+    padding: 6px;
+}
+
+.input-um-botton-capa{
+    margin: 0px;
+}
+
+.input-um-botton{
+    padding: 10px 15px;
+    width: 100%;
+    background: #d22779;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px
+}
+
+/* .comunidade-shalon-beta{
+    padding: 15px;
+    margin: 10px;
+} */
+
+.comunidade-shalon-img-centro{
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.comunidade-shalon-beta-um{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.comunidade-shalon-beta-um1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+    
+}
+
+.comunidade-shalon-img{
+   width: 600px;
+   border-radius: 25px;
+}
+
+.comunidade-shalon-beta-dois1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-direction: column;
+    
+}
+
+.comunidade-shalon-beta-dois2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-direction: column;
+    
+}
+
+.comunidade-shalon-beta-titulo1{
+    font-size: 15px;
+    padding: 0px 30px 0px 0px;
+}
+.comunidade-shalon-beta-titulo2{
+    font-size: 15px;
+    padding: 0px 0px 0px 30px;
+}
+
+.comunidade-shalon-beta-text1{
+    font-size: 16px;
+    padding: 0px 30px 0px 0px;
+}
+.comunidade-shalon-beta-text2{
+    font-size: 16px;
+    padding: 0px 0px 0px 30px;
+}
+
+.nossos-projetos-beta{
+    background-color: rgb(243, 243, 253);
+}
+
+.nossos-projetos-beta-titulo{
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.nossos-projetos-beta-corpo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+}
+
+.nossos-projetos-beta-area{
+    height: 0 auto;
+}
+
+.nossos-projetos-beta-img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.nossos-projetos-beta-text1{
+    font-size: 25px;
+    color: #000;
+    font-weight: bold
+}
+
+.nossos-projetos-beta-sobreposto{
+    position: relative;
+    margin-bottom: 0px;
+    z-index: 11;
+}
+
+
+.loc-senssao-beta{
+    display: flex;
+    justify-content: center;
+    background-color: #134a99;
+}
+
+.loc-senha-auto{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.loc-senssao-beta-um{
+    padding: 25px 0px;
+    width: 50%;
+    align-items: center;
+}
+
+.loc-senssao-beta-img{
+    width: 35px;
+    height: 35px;
+    margin-top: 25px;
+}
+
+.loc-senssao-beta-titulo{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.loc-senssao-beta-text1{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.loc-senssao-beta-text2{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.direcao-posicionamento-nav-balanco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 18px 8px;
+}
+
+.direcao-posicionamento-nav-balanco a{
+    text-decoration: none;
+    color: #134a99;
+    font-weight: 600;
+}
+
+
+@media (max-width: 850px){
+    .herder-position div nav{
+        display: none;
+        align-items: center;
+    }
+
+    .posicionamento-lateral-beta{
+        width: 100%;
+        display: flex;
+        margin: 10;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .select-video-edit-text{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .img-video-edit img{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .title-select-2{
+        font-size: 21px;
+    }
+    
+    .text-select-2{
+        font-size: 18px;
+    }
+
+    .doar-aprenda-text1 h2{
+        font-size: 35px;
+    }
+    
+    .doar-aprenda-text2{
+        font-size: 24px;   
+    }
+
+    .doar-benfeitor-um-beta-um{
+        font-size: 32px;
+    }
+
+    .doar-benfeitor-um-beta-dois{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .doar-benfeitor-um-beta-tres{
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .doar-benfeitor-um-beta-tres2{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .voluntario-benfeitor-um-beta{
+        width: 100%;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .comunidade-shalon-beta-um, .comunidade-shalon-beta-um1{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+
+    .comunidade-shalon-beta-dois1, .comunidade-shalon-beta-dois2{
+        margin: 10px;
+        width: 100%;
+    }
+
+    .comunidade-shalon-beta-text1, .comunidade-shalon-beta-text2, .comunidade-shalon-beta-titulo1, .comunidade-shalon-beta-titulo2{
+        padding: 0px;
+    }
+
+    .nossos-projetos-beta-corpo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nossos-projetos-beta-img{
+        width: 450px;
+        height: 450px;
+    }
+
+    .loc-senssao-beta-titulo{
+        font-size: 38px;
+    }
+    
+    .loc-senssao-beta-text1{
+        font-size: 27px;
+    }
+    
+    .loc-senssao-beta-text2{
+        font-size: 32px;
+    }
+
+    .loc-senssao-beta{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .loc-senssao-beta-um{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .loc-senha-auto{
+        margin: 15px;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 600px){
+
+    .herder-position div nav{
+        display: none;
+        align-items: center;
+    }
+
+    .direcao-posicionamento-header-img img{
+        width: 90%;
+        height: 90%;   
+    }
+    
+    .btn-doar{
+        font-size: 11px;
+        width: 45%;
+        text-align: center;
+    }
+
+    /* */
+
+    .segunda-sessao-posicionamento{
+        width: 100%;
+    }
+
+    .segunda-sessao-posicionamento-text{
+        margin: 10px;
+        width: 90%;
+    }
+    .segunda-sessao-edit-text-1{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .segunda-sessao-edit-text-2{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    /* areas das nossas atividade */
+    .posicionamento-lateral-beta{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .position-seletec-2{
+        padding: 5px;
+    }
+
+    .posicionamento-caixa{
+        margin: 10px;
+        height: 0 auto;
+        width: 70%;
+    }
+
+    .select-video-edit{
+        margin: 0;
+    }
+
+    .select-video-edit-text{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .img-video-edit{
+        margin: 0;
+    }
+    .img-video-edit img{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .doar-aprenda{
+        margin: 0;
+    }
+
+    .doar-aprenda-text2{
+        margin: 10px;
+    }
+
+    .doar-benfeitor-um{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .doar-benfeitor-um-beta{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .doar-benfeitor-um-beta-dois{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .doar-benfeitor-um-beta-tres, .doar-benfeitor-um-beta-tres2{
+        width: 100%;
+    }
+
+    .doar-benfeitor-um-beta-botton-extra{
+        font-size: 14px;
+    }
+
+    .class-doar-banco{
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .voluntario-benfeitor-um-beta{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .comunidade-shalon-beta-um, .comunidade-shalon-beta-um1{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+
+    .comunidade-shalon-beta-dois1, .comunidade-shalon-beta-dois2{
+        margin: 10px;
+        width: 100%;
+    }
+
+    .comunidade-shalon-img{
+        width: 90%;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .comunidade-shalon-beta-text1, .comunidade-shalon-beta-text2, .comunidade-shalon-beta-titulo1, .comunidade-shalon-beta-titulo2{
+        padding: 0px;
+    }
+    .comunidade-shalon-beta-um1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+        width: 100%;
+    }
+
+    .comunidade-shalon-beta-dois2{
+        margin: 10px;
+        width: 100%;
+    }
+
+    .nossos-projetos-beta-corpo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nossos-projetos-beta-img{
+        width: 90%;
+        height: 90%;
+    }
+
+    .nossos-projetos-beta-corpo{
+        padding: 0;
+    }
+
+    .loc-senssao-beta{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .loc-senssao-beta-um{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .loc-senha-auto{
+        margin: 15px;
+        flex-direction: column;
+        width: 90%;
+    }
+}

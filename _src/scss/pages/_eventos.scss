@@ -1,0 +1,156 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    //background-color: rgb(243, 243, 253);
+    background-color: #fff;
+    justify-content: center;
+}
+
+.blog-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 15px 0px;
+    background-color: rgb(243, 243, 253);
+
+    &-corpo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+
+        &-titulo{
+            font-size: 40px;
+            color: #547EBA;
+        }
+    }
+}
+
+.blog-card{
+    display: flex;
+
+    &-corpo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #124b95;
+        padding: 25px;
+        margin: 12px;
+        border-radius:  15px;
+    }
+}
+
+.blog-cont{
+    width:  100%;
+
+    &-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-img img{
+        width: 200px;
+        height: 200px; 
+        object-fit: cover;
+        border-radius: 50%;
+        padding: 10px;
+    }
+}
+
+.blog-cont-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+
+    h3{
+        font-size: 20px;
+        margin-top: 15px ;
+        margin-bottom: 15px;
+    }
+
+    p{
+        margin: 0 auto;
+        font-size: 14px;
+
+    }
+}
+
+.blog-single{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+
+    &-img img{
+        width: 350px;
+        height: 350px;
+        border-radius: 25%;
+        object-fit: cover;
+    }
+}
+
+.blog-single-corpo{
+    margin-top: 15px;
+
+    h3::before{
+        content: "» ";
+        width: 15px;
+        height: 5px;
+    }
+
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
+
+.text-single-eventos h2 span{
+    font-size: 45px;
+}
+
+
+.desc-single{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &-titu{
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    &-desc{
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        font-weight: 100;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .blog-card{
+        flex-direction: column;
+        
+    }
+}
